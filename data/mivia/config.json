@@ -1,0 +1,20 @@
+{
+  "configs": {
+    "CONF_A": { "pattern": [1], "directions": [1,0], "total": 1 },
+    "CONF_B": { "pattern": [1,1], "directions": [1,1], "total": 2 },
+    "CONF_C": { "pattern": [2], "directions": [2,0], "total": 2 },
+    "CONF_D": { "pattern": [1,1], "directions": [2,0], "total": 2 },
+    "CONF_D_2": { "pattern": [1,1,1], "directions": [3,0], "total": 3 },
+    "CONF_E": { "pattern": [2,1], "directions": [2,1], "total": 3 },
+    "CONF_F": { "pattern": [2,2], "directions": [2,2], "total": 4 },
+    "CONF_G": { "pattern": [2,2], "directions": [4,0], "total": 4 },
+    "CONF_H": { "pattern": [3,3], "directions": [3,3], "total": 6 },
+    "CONF_I": { "pattern": [2,1,2,1], "directions": [6,0], "total": 6 }
+  },
+  "environment_labels": {
+    "CIS": "indoor_single",
+    "CIG": "indoor_group",
+    "COS": "outdoor_single",
+    "COG": "outdoor_group"
+  }
+}
